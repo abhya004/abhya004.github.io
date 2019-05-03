@@ -25,10 +25,14 @@
 <body class="th">
   <h1 class="text-center heading"> Welcome to Credit Management System</h1>
   <div class="text-center cont">
-  <button type="button" class="btn btn-success" onclick="<a href = './f2.php'>;">View All Users</button>
+  <button type="button" class="btn btn-success" onclick="myFunction()">View All Users</button>
   <!-- <button type="button" class="btn btn-danger" onclick="location.href = 'donate/index.php';">Donate</button> -->
   </div>
-
+  <script>
+  function myFunction() {
+    location.replace("f2.php")
+  }
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </body>
 
