@@ -25,7 +25,7 @@
 <body class="th">
   <h1 class="text-center heading"> Welcome to Credit Management System</h1>
   <div class="text-center cont">
-  <button type="button" class="btn btn-success" onclick="location.href = './f2.php';">View All Users</button>
+  <button type="button" class="btn btn-success" onclick="<a href = './f2.php'>;">View All Users</button>
   <!-- <button type="button" class="btn btn-danger" onclick="location.href = 'donate/index.php';">Donate</button> -->
   </div>
 
